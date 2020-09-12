@@ -18,8 +18,7 @@
    {:title    "10 common fallacies programmers make"
     :date     "2017-02-21"
     :page-key :posts/common-fallacies
-    :md       (rc/inline "./posts/2017-02-21-10-common-fallacies.md")}
-   ])
+    :md       (rc/inline "./posts/2017-02-21-10-common-fallacies.md")}])
 
 (def posts
   (->> posts-data

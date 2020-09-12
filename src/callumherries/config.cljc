@@ -2,7 +2,7 @@
   (:require [callumherries.routes :as routes]
             [callumherries.pages.posts :as posts]
             [callumherries.pages.index :as index]
-            [callumherries.pages.contact :as contact]))
+            [callumherries.pages.about :as about]))
 
 (def posts-pages
   (into {}
@@ -11,8 +11,8 @@
 
 (def pages
   (merge posts-pages
-         {:page/index   {:hiccups (index/hiccup)}
-          :page/contact {:hiccups (contact/hiccup)}}))
+         {:page/index {:hiccups (index/hiccup)}
+          :page/about {:hiccups (about/hiccup)}}))
 
 (defn config []
   {:resource-dir     "resources"
