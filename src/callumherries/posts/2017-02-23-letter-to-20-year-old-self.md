@@ -1,9 +1,4 @@
----
-title: 'A letter to my 20-year-old self, from my 60-year-old self'
-author: 'Callum Herries'
-date: '2017-02-23'
----
-
+# A letter to my 20-year-old self, from my 60-year-old self
 
 Dear self,
 

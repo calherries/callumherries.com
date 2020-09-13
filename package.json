@@ -3,8 +3,9 @@
     "node": "12.1.0"
   },
   "scripts": {
-    "build": "postcss resources/css/tailwind.css -o resources/public/css/tailwind.css",
-    "watch:css": "onchange 'resources/css/*css' -- npm run build"
+    "build": "postcss resources/css/callumherries.css -o resources/public/css/callumherries.css",
+      "dev": "npx tailwindcss build resources/css/callumherries.css -o resources/public/css/callumherries.css",
+    "watch:css": "onchange 'resources/css/*css' -- npm run dev"
   },
   "devDependencies": {
     "shadow-cljs": "2.9.2",

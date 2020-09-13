@@ -1,9 +1,0 @@
----
-title: 'Etaoin vs Selenium'
-author: 'Callum Herries'
-date: '2017-02-23'
----
-
-Steps
-
-lein new app fuel-scraper

@@ -1,12 +1,12 @@
 (ns callumherries.routes
-  (:require [callumherries.pages.posts :as posts]))
+  (:require [callumherries.posts :as posts]))
 
 (def posts-routes
   ["posts/" (into []
-                  (for [{:keys [page-key]} posts/posts]
+                  (for [{:keys [page-key]} posts/posts-data]
                     [(str (name page-key) ".html") page-key]))])
 
 (def routes
   ["/" [["index.html" :page/index]
-        ["contact.html" :page/contact]
+        ["about.html" :page/about]
         posts-routes]])

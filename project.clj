@@ -15,7 +15,5 @@
 
   :source-paths ["src"]
 
-
   :clean-targets ^{:protect false} ["resources/js" "target" ]
-
   )

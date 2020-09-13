@@ -5,7 +5,7 @@ Today was the end of a major chapter in my life: my first job working for a tech
 As I look for my next adventure, I’ve realised I have more opportunities than ever before to craft the lifestyle that I want. But with great opportunities comes greater potential to miss them.
 
 As we parted after Friday drinks, my now former boss gave me some advice I don’t want to forget.
-> # “*Whatever you do, don’t let yourself get bored.”*
+“*Whatever you do, don’t let yourself get bored.”*
 
 Wow, I thought. I’ve never thought of avoiding boredom as a heuristic for decision making. Yet here’s evidence of a man who’s lived his life doing things that interest him, and it’s got him somewhere. I doubt that many people achieve that.
 

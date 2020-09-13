@@ -11,11 +11,11 @@
     display: inline-flex;
 }
 
-.h-box {
+.hbox {
     @apply .flex .flex-row
 }
 
-.v-box {
+.vbox {
     @apply .flex .flex-col
 }
 
@@ -39,6 +39,38 @@
     border-left-color: transparent;
 }
 
-a:hover {
+a {
     text-decoration: underline;
+    color: #0086FF
+}
+
+html {
+    line-height: 1.25;
+    color: #333;
+    font-size: 14px;
+}
+
+@layer base {
+    h1 {
+        @apply text-2xl;
+        @apply font-bold;
+    }
+    h2 {
+        @apply text-xl;
+        @apply font-bold;
+    }
+    h3 {
+        @apply text-lg;
+        @apply font-bold;
+    }
+    p {
+        @apply my-3;
+    }
+    .post ul {
+        @apply list-disc;
+        @apply pl-6;
+    }
+    .post li {
+        @apply my-3;
+    }
 }
