@@ -4,7 +4,7 @@
   },
   "scripts": {
     "build": "postcss resources/css/callumherries.css -o resources/public/css/callumherries.css",
-      "dev": "npx tailwindcss build resources/css/callumherries.css -o resources/public/css/callumherries.css",
+    "dev": "npx tailwindcss build resources/css/callumherries.css -o resources/public/css/callumherries.css",
     "watch:css": "onchange 'resources/css/*css' -- npm run dev"
   },
   "devDependencies": {

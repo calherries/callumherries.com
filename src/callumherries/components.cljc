@@ -14,5 +14,6 @@
   [[:div.m-5
     header
     [:div.vbox.float-left
-     {:style {:max-width "620px"}}
+     {:style {:width "100%"
+              :max-width "620px"}}
      contents]]])

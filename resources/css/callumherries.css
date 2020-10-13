@@ -47,7 +47,6 @@ a {
 html {
     line-height: 1.25;
     color: #333;
-    font-size: 14px;
 }
 
 @layer base {

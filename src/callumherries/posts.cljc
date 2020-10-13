@@ -35,4 +35,9 @@
     :page-key :posts/letter-to-20-year-old-self
     :md       #?(:clj (clj-inline "./posts/2017-02-23-letter-to-20-year-old-self.md")
                  :cljs (rc/inline "./posts/2017-02-23-letter-to-20-year-old-self.md"))}
+   {:title    "Piping Python"
+    :date     "2020-10-13"
+    :page-key :posts/piping-python
+    :md       #?(:clj (clj-inline "./posts/2020-10-13-piping-python.md")
+                 :cljs (rc/inline "./posts/2020-10-13-piping-python.md"))}
    ])
