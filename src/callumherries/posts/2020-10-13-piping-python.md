@@ -1,7 +1,7 @@
 # Piping Python
 
 Today I was writing some Python code where I needed to pipe data through a sequence of steps.
-In R you could do this very easily with the pipe operator `%>%`, and in Clojure with the threading macro `->`.
+You can do this in R with the pipe operator `%>%`, and in Clojure with the threading macro `->` but python only has plain old function calls.
 Luckily I came across [pipetools](https://github.com/0101/pipetools), a library that adds this functionality in Python.
 
 Piping values through functions is best suited to problems where:
