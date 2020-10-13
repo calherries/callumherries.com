@@ -6,7 +6,7 @@
 
 (def posts
   (->> posts/posts-data
-       (sort-by :date (complement compare)) ;; order by descending date
+       (sort-by :date #(compare %2 %1)) ;; order by descending date
        (map #(assoc % :hiccup [:div.post (->> %
                                               :md
                                               m/md->hiccup

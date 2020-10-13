@@ -33,8 +33,8 @@
    {:title    "A letter to my 20-year-old self, from my 60-year-old self"
     :date     "2017-02-23"
     :page-key :posts/letter-to-20-year-old-self
-    :md       #?(:clj (clj-inline "./posts/2012-02-23-letter-from-60-year-old-self.md")
-                 :cljs (rc/inline "./posts/2012-02-23-letter-from-60-year-old-self.md"))}
+    :md       #?(:clj (clj-inline "./posts/2017-02-23-letter-from-60-year-old-self.md")
+                 :cljs (rc/inline "./posts/2017-02-23-letter-from-60-year-old-self.md"))}
    {:title    "Piping Python"
     :date     "2020-10-13"
     :page-key :posts/piping-python
