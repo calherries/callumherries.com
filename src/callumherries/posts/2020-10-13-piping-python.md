@@ -1,20 +1,18 @@
 # Piping Python
 
 Today I was writing some Python code where I needed to pipe data through a sequence of steps.
-You can do this in R with the pipe operator `%>%`, and in Clojure with the threading macro `->` but python only has plain old function calls.
+You can do this in R with the pipe operator `%>%`, and in Clojure with the threading macro `->` but Python only has plain old function calls.
 Luckily I came across [pipetools](https://github.com/0101/pipetools), a library that adds this functionality in Python.
 
 Piping values through functions is best suited to problems where:
 - You calculate a value from a sequence of steps
 - You do not need to name intermediate values
 
-Let's take an example from a respected Python programmer. Norig's solution to 2018 Advent of Code, Day 11:
-
+Let's take some code from a respected Python programmer, and try to implement it with pipetools. Here's Peter Norvig's solution to 2018 Advent of Code, Day 11:
 
 ```
 The power level in a given fuel cell can be found through the following process:
-1. 1. Find the fuel cell's rack ID, which is its X coordinate plus 10.
-
+1. Find the fuel cell's rack ID, which is its X coordinate plus 10.
 2. Begin with a power level of the rack ID times the Y coordinate.
 3. Increase the power level by the value of the grid serial number (your puzzle input).
 4. Set the power level to itself multiplied by the rack ID.
@@ -22,7 +20,7 @@ The power level in a given fuel cell can be found through the following process:
 6. Subtract 5 from the power level.
 ```
 
-Here is Norig's Python code:
+Here is Norvig's Python code:
 ```
 def power_level(point):
     rack_id = point[0] + 10
